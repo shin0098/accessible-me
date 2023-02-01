@@ -6,6 +6,23 @@ body {
   padding: 0;
 }
 
+#skip-nav {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+
+#skip-nav:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+
 h1,
 h2,
 h3,
