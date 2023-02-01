@@ -6,6 +6,7 @@ body {
   padding: 0;
 }
 
+
 #skip-nav {
   position: absolute;
   left: -999px;
@@ -22,6 +23,8 @@ body {
   position: static;
   margin: auto;
 }
+
+/* hide-skip-nav */
 
 h1,
 h2,
